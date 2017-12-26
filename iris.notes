@@ -34,7 +34,7 @@ x - is there a golden set of model scores?
 
 - is there a utility score metric that combines the golden set of model scores?
 
-- my model scores are different to ones reported in the post? what could be the possible reasons?
+- my model scores are different to ones reported in the post (Section 5.4)? what could be the possible reasons?
 
 ('algorithm', 'accuracy', 'mean', 'std')
 LR: 0.966667 (0.040825)
@@ -46,9 +46,11 @@ SVM: 0.991667 (0.025000)
 
 - What do the bars represent in Algorithm Comparison in Section 5.4? Take LDA for example, the stated accuracy and standard deviation are 0.98 and 0.04. The bar in the chart finishes at about 0.94 and the whisker at about 0.92. Take knn for another example, the stated accuracy and standard deviation are 0.98 and 0.03. However, the bar finishes at 1 and the whisker at 0.92. How do I interpret the bars and whiskers? Is y-axis accuracy?
 
+- how to read the confusion matrix without labels? My guess is row and column (missing) labels represent actual and predicted classes, respectively. However, I am unsure about the order of classes. is there a way to switch on the labels? 
+
 - when is a data set too small for learning? is there a lower bound on the number of attributes and instances?
 
-- how to read the confusion matrix? how to label it programmatically?
+
 
 - 
 
