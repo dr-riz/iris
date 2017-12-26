@@ -1,0 +1,55 @@
+- how is the dimensions of the data set or shape useful?
+* needed to slice the dataset into attributes and class
+* appreciate the size of training, test 
+* each attribute adds another dimension into the modeling space. too many attributes require, many more instances.
+
+- how is peeking at the data useful?
+* familiarizing with data. 
+* see if see any special characters
+
+- how is the statistical summary useful?
+* to check the scale and ranges of attribute values
+* if scales are not similar, then need to consider normalization
+* tabular representation of box-and-whisker-plots
+
+- how is the class distribution useful?
+* if the classes are not balanced, then may get a majority class classifier. need to balance the classes.
+
+- how univariate plots help us understand each attribute?
+* box and whisker plot: show us the spread of the data: minimum, first quartile, median, third quartile, and maximum. + outliers. but doesn't tell us the distribution shape.
+* histograms: show us the distribution but the 5 numbers are not immediately obvious.
+* i prefer normal distributions as metrics and algorithms such as mean and kmeans are prone to outliers, respectively
+* drawing a visual grid of too many attributes becomes overwhelming. wonder if a tabular structure is more helpful in that case? 
+
+- how do the multivariate plots useful?
+* scatter plots: for all pairs of attributes. helpful to spot structured relationships between input variables.  drawing a visual grid of too many attributes becomes overwhelming. is there a algorithm that points out "abnormal" relationships such as perfect correlation or totally random?
+* what is textual representation of the scatter plot? correlation matrix.
+* what is the difference between correlation and covariance matrix?
+
+x - what is the most layman measure of model score?
+* for classification: accuracy
+
+x - is there a golden set of model scores?
+* classification: accuracy, F-measure, area under ROC
+
+- is there a utility score metric that combines the golden set of model scores?
+
+- my model scores are different to ones reported in the post? what could be the possible reasons?
+
+('algorithm', 'accuracy', 'mean', 'std')
+LR: 0.966667 (0.040825)
+LDA: 0.975000 (0.038188)
+KNN: 0.983333 (0.033333)
+CART: 0.983333 (0.033333)
+NB: 0.975000 (0.053359)
+SVM: 0.991667 (0.025000)
+
+- What do the bars represent in Algorithm Comparison in Section 5.4? Take LDA for example, the stated accuracy and standard deviation are 0.98 and 0.04. The bar in the chart finishes at about 0.94 and the whisker at about 0.92. Take knn for another example, the stated accuracy and standard deviation are 0.98 and 0.03. However, the bar finishes at 1 and the whisker at 0.92. How do I interpret the bars and whiskers? Is y-axis accuracy?
+
+- when is a data set too small for learning? is there a lower bound on the number of attributes and instances?
+
+- how to read the confusion matrix? how to label it programmatically?
+
+- 
+
+
